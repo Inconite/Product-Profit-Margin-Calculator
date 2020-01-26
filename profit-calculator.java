@@ -52,9 +52,8 @@ public class Product_Margin {
 		
 		System.out.println("Sell Price After Discount: " + "$" + r_sellPrice);
 		System.out.println("PayPal Balance After Fee: " + "$" + df.format(pp_TotalReceived));
-        System.out.println("Amount Lost in PayPal Fee: " + "$" + df.format(pp_TotalFee));
-        //System.out.println("Product Cost Price: " + "$" + c_Price);
-        System.out.println("");
+        	System.out.println("Amount Lost in PayPal Fee: " + "$" + df.format(pp_TotalFee));
+        	System.out.println("");
 		System.out.println("Profit: " + "$" + df.format(r_Profit));
 		System.out.println("FB ROAS %: " + df.format(fb_ROAS));
 		System.out.println("---------------------------------------");
